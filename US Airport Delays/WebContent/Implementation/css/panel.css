@@ -1,0 +1,62 @@
+  .panel1Body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width:100%;
+        height: 95%;
+        position: relative;
+        overflow-y:scroll;
+       
+    }
+    
+
+   #svgPanel1 {
+        width: 100%;
+        /* height: 2000%; */
+         overflow-y:visible;
+         overflow-y:scroll;
+    }
+
+    .toolTipPanel1 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        display: none;
+        width: auto;
+        height: auto;
+        background: none repeat scroll 0 0 white;
+        border: 0 none;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: -3px 3px 15px #888888;
+        color: black;
+        font: 12px sans-serif;
+        padding: 5px;
+        text-align: center;
+        z-index:999999;
+        position:fixed;
+    }
+
+    text {
+        font: 16px sans-serif;
+        color: white;
+    }
+    text.value {
+        font-size: 99%;
+        fill: black;
+        font-weight:bold;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .axisHorizontal path{
+        fill: none;
+    }
+
+    .axisHorizontal .tick line {
+        stroke-width: 1;
+        stroke: rgba(0, 0, 0, 0.2);
+    }
+
+    .bar {
+        fill: #3182bd;
+        fill-opacity: .8;
+    }
+    .bar:hover {
+        fill: #8e3232;
+        fill-opacity: .9;
+    }

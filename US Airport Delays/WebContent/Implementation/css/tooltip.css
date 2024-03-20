@@ -1,0 +1,41 @@
+#divTooltip{
+    position: absolute;
+    border: solid;
+    width: 300px;
+    height: 140px;
+    padding: 5px;
+    font-family: Raleway, "sans-serif";
+    text-align: left;
+    pointer-events: none;
+    background: white;
+    color: black;
+    border: 1px solid #2BB0D7;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+}
+#divTooltipAirportCode{
+    border: none;
+    border-bottom: solid;
+    font-weight: bold;
+    font-size: 20px;
+    color: forestgreen;
+    height: 25px;
+    padding: 5px 0px;
+}
+#divTooltipAirportDetails{
+    padding: 5px 0px;
+    font-weight: normal;
+    font-size: 11px;
+    height: 20px;
+}
+.trTooltip{
+    height: 20px;
+}
+.tdFirstTooltip{
+    width: 50px;
+    vertical-align: top;
+}
+.tdSecondTooltip{
+    vertical-align: top;
+}
